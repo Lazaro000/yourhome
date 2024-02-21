@@ -1,27 +1,42 @@
-# Yourhome
+# YourHome
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+![YourHome Logo](https://tuurl.com/logo)
 
-## Development server
+## Descripción del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+YourHome es una aplicación web de búsqueda y publicación de propiedades inmobiliarias. Permite a los usuarios buscar casas, apartamentos y otros tipos de propiedades en venta o alquiler, así como publicar sus propias listas de propiedades para su promoción.
 
-## Code scaffolding
+## Características Principales
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Búsqueda avanzada de propiedades por ubicación, precio, tamaño, etc.
+- Filtrado de resultados por diferentes criterios, como tipo de propiedad, número de habitaciones, etc.
+- Visualización de detalles de la propiedad, incluyendo descripción, fotos, precio, etc.
+- Registro de usuarios para la publicación y gestión de sus propias listas de propiedades.
+- Sistema de mensajería interna para la comunicación entre los usuarios interesados en una propiedad.
 
-## Build
+## Instalación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona este repositorio en tu máquina local usando `git clone https://github.com/Lazaro000/yourhome.git`.
+2. Instala las dependencias del proyecto utilizando el gestor de paquetes de tu preferencia (npm, yarn, etc.).
+3. Configura las variables de entorno necesarias para la conexión a la base de datos y otros servicios externos.
+4. Ejecuta el servidor localmente utilizando el comando `npm run start` o similar.
 
-## Running unit tests
+## Tecnologías Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Frontend: Angular v17
+- Backend: Java
+- Base de Datos: SQL (falta elegir cuál)
 
-## Running end-to-end tests
+## Contribución
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+¡Estamos abiertos a contribuciones! Si deseas contribuir al proyecto envía tus pull requests.
 
-## Further help
+## Equipo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Desarrollador Principal: [llatzer](https://github.com/Lazaro000)
+- Diseñador de Interfaz de Usuario: [llatzer](https://github.com/Lazaro000)
+- Gestor de Proyecto: [llatzer](https://github.com/Lazaro000)
+
+## Licencia
+
+Este proyecto está bajo la licencia [Nombre de la Licencia](). Para más detalles, consulta el archivo LICENSE.md.
