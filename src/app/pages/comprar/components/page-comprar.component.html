@@ -1,1 +1,17 @@
 <p>page-comprar works!</p>
+
+<!-- Forma nueva v17 -->
+<button (click)="getTodo()">Cargar TODOS</button>
+@if(todos$ | async; as todos) {
+<ul>
+  @for (todo of todos; track todo.userId) {
+  <li>{{todo.title}}</li>
+  }
+</ul>
+}
+
+<!-- Forma antigua -->
+<!-- <button (click)="getTodo()">Cargar TODOS</button>
+<ul *ngIf="todos$ | async as todos">
+  <li *ngFor="let todo of todos"> {{todo.title}}</li>
+</ul> -->
