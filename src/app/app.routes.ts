@@ -18,4 +18,10 @@ export const routes: Routes = [
       import('./pages/alquilar/alquilar.routes').then((m) => m.routes),
     title: 'Alquilar - YourHome',
   },
+  {
+    path: '**',
+    loadChildren: () =>
+      import('./pages/error/error.routes').then((m) => m.routes),
+    title: 'Error - YourHome',
+  },
 ];

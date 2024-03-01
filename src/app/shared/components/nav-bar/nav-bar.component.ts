@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { routes } from '../../../app.routes';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,4 +9,11 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css',
 })
-export class NavBarComponent {}
+export class NavBarComponent {
+  routes: Array<any> = routes;
+
+  isErrorRoute(routeTitle: string) {
+    if (routeTitle) return routeTitle.toLowerCase().includes('error');
+    return false;
+  }
+}
